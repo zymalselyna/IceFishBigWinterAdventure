@@ -343,7 +343,7 @@ final class MainMenuScene: SKScene {
     
     private func setupTitle() {
         let shadowLabel = SKLabelNode(fontNamed: "AvenirNext-Heavy")
-        shadowLabel.text = "ICE FISHING"
+        shadowLabel.text = "IceFishBig"
         shadowLabel.fontSize = 42
         shadowLabel.fontColor = SKColor(red: 0.0, green: 0.0, blue: 0.0, alpha: 0.3)
         shadowLabel.position = CGPoint(x: size.width / 2 + 2, y: size.height * 0.76 - 2)
@@ -351,7 +351,7 @@ final class MainMenuScene: SKScene {
         addChild(shadowLabel)
         
         titleLabel = SKLabelNode(fontNamed: "AvenirNext-Heavy")
-        titleLabel.text = "ICE FISHING"
+        titleLabel.text = "IceFishBig"
         titleLabel.fontSize = 42
         titleLabel.fontColor = .white
         titleLabel.position = CGPoint(x: size.width / 2, y: size.height * 0.76)
